@@ -43,4 +43,9 @@ public class JdbcUtil
         connection.close();
 
     }
+
+    public static Connection getDbConnection() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDbConnection'");
+    }
 }
