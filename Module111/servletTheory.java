@@ -2,6 +2,10 @@ package Module111;
 
 public class servletTheory 
 {
+
+    public static void main(String[] args) {
+        
+    }
     /*
      Using Java we can build 2 types of application
 a. Standalone applications(Using JSE)
@@ -64,7 +68,6 @@ Configuring eclipse with tomcat9.0
 4. Click on finsih(make sure the server tab is filled with tomcat file)
 5. Select tomcat9.0 file and start the server(check in conosle for the information
 like server startup)
-
 
 */
 }
