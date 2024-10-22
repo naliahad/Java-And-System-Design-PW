@@ -6,7 +6,7 @@ public class RotationMatrix
 {
     public static void rotatedMatrix(int[][] arr) 
     {
-        //Step trasnpose 2-D Array
+        //Step1 trasnpose 2-D Array
 
         for(int i = 0; i<arr.length;i++)
         {
@@ -18,6 +18,22 @@ public class RotationMatrix
             }
         }
 
+        //Step 2 swap column
+
+        for(int i = 0; i<arr.length; i++)
+        {
+            int leftIndex = 0;
+            int rightIndex = arr.length-1;
+            while (leftIndex<rightIndex) 
+            {
+                int temp = arr[i][leftIndex];
+                arr[i][leftIndex] = arr[i][rightIndex];
+                arr[i][rightIndex] = temp;
+                leftIndex++;
+                rightIndex--;                
+            }
+
+        }
 
     }
 
