@@ -1,8 +1,10 @@
 package Module53.TwoDArray;
 
+import java.util.Arrays;
+
 public class RotationMatrix 
 {
-    private static void rotatedMatrix(int[][] arr) 
+    public static void rotatedMatrix(int[][] arr) 
     {
         //Step trasnpose 2-D Array
 
@@ -15,8 +17,11 @@ public class RotationMatrix
                 arr[j][i] = temp;
             }
         }
+
+
     }
 
+    
 
     public static void main(String[] args) 
     {
@@ -29,6 +34,10 @@ public class RotationMatrix
         };
 
         rotatedMatrix(arr);
+            for( int[] mat : arr)
+            {
+                System.out.println(Arrays.toString(mat));
+            }
 
     }
 
