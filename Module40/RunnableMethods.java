@@ -1,10 +1,6 @@
 package Module40;
 
 import java.util.Scanner;
-class demo
-{
-
-}
 
 class calc implements Runnable
 {

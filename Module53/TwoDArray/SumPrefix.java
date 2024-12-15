@@ -14,6 +14,36 @@ public class SumPrefix
         }
         return sum;
     }
+
+    public static int sumRegion(int [][]arr, int r1, int c1, int r2, int c2)
+    {
+        int sum=0, up=0, left=0, repeated_region=0, result=0;
+        sum = arr[r2][c2];
+        
+    }
+    public static void prefSumMatrix(int arr[][])
+    {
+        int m = arr.length;
+        int n = arr[0].length;
+        //traveresed the array hroiozntolly i.e row wise to claculate row wise prefix sum.
+
+        for(int i=0; i<m; i++)
+        {
+            for(int j=1;j<n; j++)
+            {
+                arr[i][j] = arr[i][j-1];
+            }
+        }
+
+        //traverse array colum wise for column wise prefix
+         for(int j=0; j<n; j++)
+         {
+            for(int i=1; i<m; i++)
+            {
+                arr[i][j] += arr[i-1][j];
+            }
+         }
+    }
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
@@ -46,7 +76,10 @@ public class SumPrefix
         System.out.print("Enter the value of c1 coordinate.");
         c2 = sc.nextInt();
 
-        int result = findSumMatrix(arr,r1,c1,r2,c2);;
-        System.out.println("Sum of elements of given rectangle is " + result);
+        //int result = findSumMatrix(arr,r1,c1,r2,c2);;
+        //System.out.println("Sum of elements of given rectangle is " + result);
+
+        prefSumMatrix(arr);
+        int result = sumRegion(arr, r1,c1, r2,c2);
     }
 }

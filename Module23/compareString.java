@@ -3,7 +3,7 @@ package Module23;
 public class compareString 
 {
     public static void main(String[] args) 
-    {
+    {   //Strings comparison
         String s1 =  "pw skill";
         String s2  = new String ("pw skill");
 
@@ -14,6 +14,7 @@ public class compareString
         String s4  = new String ("PW SKILL");
 
         System.out.println(s3.equals(s4));
+        System.out.println(s3==s4);
         System.out.println(s3.equalsIgnoreCase(s4));
     }
 }

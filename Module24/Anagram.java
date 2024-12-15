@@ -28,10 +28,11 @@ public class Anagram
 
         if (Arrays.equals(ar1,ar2))
         {
-            System.out.println("Is a anagram.");
+            System.out.println("Is an anagram.");
         }
         else{
-            System.out.println("Is not a anagram.");
+            System.out.println("Is not an anagram.");
         }
     }
 }
+

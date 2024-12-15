@@ -43,9 +43,9 @@ class Library implements Runnable
             try
             {
                 Thread.sleep(3000);
-                synchronized(res3)
+                synchronized(res1)
                 {
-                    System.out.println("Student 2 has acc " + res3); 
+                    System.out.println("Student 2 has acc " + res1); 
                     /* 
                     Dead block -> both the thread required 
                     same resource and only 1 thread can have a resource at once.
@@ -57,9 +57,9 @@ class Library implements Runnable
                         System.out.println("Student 2 has acc " + res2);
                         Thread.sleep(3000);
 
-                        synchronized(res1)
+                        synchronized(res3)
                         {
-                            System.out.println("student 2 has acc " + res1);
+                            System.out.println("student 2 has acc " + res3);
                             Thread.sleep(3000);
                         }
                     }

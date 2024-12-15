@@ -66,7 +66,7 @@ class Abstraction
         cp3.takeOff();
         cp3.fly();
         ((Cargoplane3) cp3).goods(); // Aeroplane3 refrence does not have goods mehtod inside it. "goods" cannot be accesed with Aeroplane reference.
-                    // Casting is required here to acces goods mehtod.
+                    // Casting is required here to acces goods mehtod/specialised method.
 
 
     }

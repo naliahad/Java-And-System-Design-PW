@@ -7,14 +7,19 @@ public class BuilderVsBuffer {
         StringBuilder sb1 = new StringBuilder();
         System.out.println(sb.capacity()); // 16 memory are allocated by default for both buffer and builder.
         System.out.println(sb1.capacity());
+
         sb.append("abcdjhagsdbnkslu");
-        System.out.println(sb.capacity());
+        System.out.println(sb);
+        System.out.println( + sb.capacity());
+
+        sb1.append("A");
+        System.out.println( sb1.capacity());
 
         StringBuffer ns = new StringBuffer("java"); // this will allocate 16 + size of value.
-        System.out.println("ns capacity " + ns.capacity());
+        System.out.println("Capacity of StringBuffer after adding extra char: " + ns.capacity());
 
         sb.append("a"); // if we want to increase capacity it will be increased by (16+1)*2= 34
-        System.out.println(sb.capacity());
+        System.out.println("Capacity of StringBuilder after adding extra char: " + sb.capacity());
         System.out.println(  sb.length()); // lenght will remain equal to value's stored.
 
         StringBuffer sb2 = new StringBuffer(50); // will define capacity manually

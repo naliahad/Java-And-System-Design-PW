@@ -9,7 +9,7 @@ class Car implements Runnable
 
         try
         {
-            System.out.println(Thread.currentThread().getName() + " Found car");
+            System.out.println(Thread.currentThread().getName() + " Entered Parking");
             Thread.sleep(1000);
             System.out.println();
             

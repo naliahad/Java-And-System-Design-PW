@@ -18,7 +18,6 @@ public class arrayList
         System.out.println(al1);
 
         System.out.println("*************************************");
-
         ArrayList al2 = new ArrayList(); //hterogenous data can store diffrent type of data.
 
         al2.add("Hello World");

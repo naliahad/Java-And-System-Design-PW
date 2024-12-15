@@ -4,7 +4,7 @@ import java.util.Scanner;
 class calc extends Thread
 {
     public void run()
-    {  //for tread task should be defined in run method.
+    {  //for thread task should be defined in run method.
         System.out.println("Calc method.");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1st number.");

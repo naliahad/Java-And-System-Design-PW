@@ -18,6 +18,6 @@ public class SingleLevel
     public static void main(String[] args) 
     {
         Tiger t = new Tiger();
-        t.sleep();
+        t.sleep(); 
     }
 }
