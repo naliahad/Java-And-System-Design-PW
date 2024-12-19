@@ -19,7 +19,7 @@ public class priority_Queue
         System.out.println(p1);
 
         System.out.println("*********************************");
-        p1.add(25);
+        p1.add(25);// Duplicates are allowed
 
         System.out.println(p1);
     }    

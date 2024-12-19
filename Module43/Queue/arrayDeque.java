@@ -4,7 +4,7 @@ public class arrayDeque
 {
     public static void main(String[] args) 
     {
-        //Can only add at starting or end of array. Index based insertion is not available. -> double ended method
+        //Can only add at starting or end of array. Index based insertion is not available. <-> double ended method
         //Duplicates are allowed.
         //Can store hetro/homo - genous both type of data.
 

@@ -5,7 +5,9 @@ public class arrayList
 {
     public static void main(String[] args) 
     {
-        //All the info in ArrayList is added as object.
+        // All the info in ArrayList is added as object.
+        // Array list stored data as objects, maintains the order of insertion
+        // Duplicates are allowed in array list.
         
         ArrayList al1 = new ArrayList(); // homogenous data all of same type i.e int
 
@@ -81,6 +83,8 @@ public class arrayList
         al3.clear(); //clear the list.
 
         System.out.println(al3);   
+
+        List lis = new ArrayList(); //parent child relatioin-> array list extending list.
 
 
     }
