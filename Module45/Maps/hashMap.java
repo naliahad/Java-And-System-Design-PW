@@ -5,7 +5,7 @@ public class hashMap
     public static void main(String[] args) 
     {
         //info will be stored as objects only.
-
+              
         System.out.println("********************************");
         Map hm = new HashMap();     
         hm.put(01, "Rohan"); // (key: 01, value: Rohan) Entry.
