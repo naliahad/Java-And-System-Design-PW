@@ -6,6 +6,7 @@ public class priority_Queue
     {
         //Min-Heap -> DSA
         //Index based insertion is not allowed. 
+        //null data is not allowed.
         PriorityQueue p1 = new PriorityQueue(); //data will not be inserted in order. will change the order of insertion.
         p1.add(100); 
         p1.add(150);

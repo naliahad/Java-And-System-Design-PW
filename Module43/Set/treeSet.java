@@ -6,6 +6,7 @@ public class treeSet
     public static void main(String[] args) 
     {
         //Binary Search Tree -> DSA
+        //index based insertion not allowed.
         TreeSet t1 = new TreeSet(); //change the order data to ascending. //sorted.
         t1.add(100); 
         t1.add(50);
@@ -22,7 +23,8 @@ public class treeSet
 
         System.out.println(t1.higher(50));
         System.out.println(t1.lower(50));
-        System.out.println(t1.ceiling(40));
-        System.out.println(t1.floor(40));
+        System.out.println(t1.ceiling(40)); //if 40 present will give 40 else nearest higher value.
+        System.out.println(t1.floor(40));  //if 40 present will give 40 else nearest lower value.
+
     }
 }

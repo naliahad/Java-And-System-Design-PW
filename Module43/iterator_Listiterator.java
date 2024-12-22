@@ -36,7 +36,7 @@ public class iterator_Listiterator
             System.out.println(o);
         }
 
-        //ListIterator ->  only in li   st based iterator
+        //ListIterator ->  only in list based iterator
         //can traverse in reverse direction.
 
         ListIterator litr = al1.listIterator(al1.size());
