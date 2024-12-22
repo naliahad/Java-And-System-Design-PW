@@ -1,8 +1,6 @@
 package Module45.Maps;
-
 import java.util.Map.*;
 import java.util.*;
-
 class iterator_on_maps 
 {
     public static void main(String[] args) 
@@ -26,13 +24,13 @@ class iterator_on_maps
  
          Iterator itr = set.iterator();
           while(itr.hasNext())
-         {
-             System.out.println("Key is: " + itr.next());
- 
-             //Integer i = (Integer)itr.next();
- 
-             //System.out.println(i);
-         }
+            {
+                System.out.println("Key is: " + itr.next());
+    
+                //Integer i = (Integer)itr.next();
+    
+                //System.out.println(i);
+            }
  
          System.out.println("****************************");
  
@@ -52,13 +50,11 @@ class iterator_on_maps
          Iterator itr3 = es.iterator();
  
          while(itr3.hasNext())
-         {
+            {
              //System.out.println("Key and value is: " + itr3.next());
              Map.Entry data = (Entry)itr3.next();
              System.out.println(data.getKey() + " : " + data.getValue());
- 
- 
-         }
+            }
  
     }
 }
