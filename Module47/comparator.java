@@ -86,7 +86,7 @@ public class comparator
        };
  */
 
-/*        Comparator<Student5> comp = (Student5 a, Student5 b) -> //Cpmparator class implementation using annonymous inner class
+/*        Comparator<Student5> comp = (Student5 a, Student5 b) -> //Cpmparator class implementation using lambda Expression
  
         {
              if(a.age > b.age)

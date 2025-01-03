@@ -16,7 +16,7 @@ public class RotationMatrix
                 arr[i][j] = arr[j][i];
                 arr[j][i] = temp;
             }
-        }
+        }   
 
         //Step 2 swap column
 
@@ -48,7 +48,7 @@ public class RotationMatrix
         };
 
         rotatedMatrix(arr);
-            for( int[] mat : arr)
+            for( var mat : arr)
             {
                 System.out.println(Arrays.toString(mat));
             }

@@ -23,7 +23,7 @@ public class Enump1
        System.out.println(p);
 
        int index =Week.SUN.ordinal(); // will give index.
-       System.out.println(index );
+       System.out.println("Index: " + index );
     
        Week [] val =Week.values(); //will give values.
        

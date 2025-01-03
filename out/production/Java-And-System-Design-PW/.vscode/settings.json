@@ -1,0 +1,13 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "task.allowAutomaticTasks": "on",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor",
+    "*.txt": "default"
+  },
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "d:\\Developmet\\Program file\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0.jar"
+  ]
+}

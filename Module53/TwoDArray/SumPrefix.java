@@ -13,12 +13,13 @@ public class SumPrefix
             }
         }
         return sum;
-    }
+    }  
 
     public static int sumRegion(int [][]arr, int r1, int c1, int r2, int c2)
     {
         int sum=0, up=0, left=0, repeated_region=0, result=0;
         sum = arr[r2][c2];
+        return sum;
         
     }
     public static void prefSumMatrix(int arr[][])
