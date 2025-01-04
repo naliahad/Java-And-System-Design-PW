@@ -24,7 +24,7 @@ class demo2
 
              else
              {
-                result = mid;
+                result = mid; // lower bound value for non pefect square number ex input 26: output 5 (5*5= 25).
                 low = mid+1;
              }
         }
@@ -35,7 +35,7 @@ public class sqaureRoot
 {
     public static void main(String[] args) 
     {
-        int num = 5;
+        int num = 26;
         int result = demo2.sqaureRootMethod(num);
         System.out.println(result);
     }   
