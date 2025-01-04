@@ -7,30 +7,32 @@ class demo
 {
     public static int binary(int arr[], int target)
     {
-        int low =0; 
-        int high = arr.length; 
-        int mid = (low + (high-low))/2;
+        int low, mid, high, result;
 
-        while(low<high)
+        low = 0;
+        high = arr.length;
+
+        result = -1;
+
+        while(low<=high)
         {
-            if(arr[mid]==target)
+            mid =  low + (high-low)/2;
+
+            if(arr[mid] == target)
             {
                 return mid;
             }
 
             else if(arr[mid]>target)
             {
-                low =0;
                 high = mid-1;
-                mid = low+(high-low)/2;
             }
 
             else
             {
                 low = mid+1;
-                high =arr.length;
-                mid = low+(high-low)/2;
             }
+
         }
 
         return 0;
