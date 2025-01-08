@@ -18,9 +18,9 @@ public class SelectionSort
 
                 if(min_idx != i)
                 {
-                    int temp = arr[min_idx];
+                    int tem = arr[min_idx];
                     arr[min_idx] = arr[i];
-                    arr[i] = temp;
+                    arr[i] = tem; 
 
                 }
             }
