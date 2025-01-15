@@ -12,8 +12,10 @@ public class count_stairs {
     }
     public static void main(String[] args) {
         Scanner sc =   new Scanner(System.in);
-        System.out.println("Enter number of stairs.");
+        System.out.println("Enter number of stairs."); 
         int n = sc.nextInt();
-        System.out.println(stairsCount(n+1));
+    
+            System.out.print(stairsCount(n+1));
+        
     }
 }
