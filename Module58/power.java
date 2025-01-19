@@ -26,5 +26,5 @@ public class power {
 
         System.out.println("a^b = " + powerFind(a, b));
 
-    }
+    }   
 }

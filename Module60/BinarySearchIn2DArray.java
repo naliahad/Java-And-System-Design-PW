@@ -13,7 +13,7 @@ public class BinarySearchIn2DArray
         if(num_rows==0) return false;
 
         //binary search
-        int low =0, high  = num_rows * num_columns -1, midIdx, midElement, rowIdx, colIdx;
+        int low = 0, high = num_rows*num_columns-1, midIdx, midElement, rowIdx, colIdx;
 
         while(low<high)
         {
