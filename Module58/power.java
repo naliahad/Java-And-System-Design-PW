@@ -7,6 +7,7 @@ public class power {
         int mid; int RigtSideAns; int finalAns;
         //base case condition
         if (b==1) return a;
+        if(b==0) return 1;
         mid = b/2;
         RigtSideAns = powerFind(a, mid);
         finalAns = RigtSideAns * RigtSideAns;  
