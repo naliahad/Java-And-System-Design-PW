@@ -57,7 +57,7 @@ public class BinarySearchIn2DArray
         int target = sc.nextInt();
 
         boolean result =  binarSearch(arr, target);
-        System.out.println(result);
+        System.out.println( "Output: " + result);
 
     }
 }
