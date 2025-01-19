@@ -25,6 +25,5 @@ public class power {
         int b =  sc.nextInt();
 
         System.out.println("a^b = " + powerFind(a, b));
-
     }   
 }
