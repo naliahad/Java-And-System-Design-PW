@@ -19,7 +19,7 @@ public class TilingBacktracking
     }
     public static void main(String[] args) 
     {
-        int n = 3;
+        int n = 4;
         int result = tiling(n);
         System.out.println(result);
         
